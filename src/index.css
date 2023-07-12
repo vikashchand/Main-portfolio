@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+
+
+
+:root{
+    --color-bg:#1f1f38;
+    --color-bg-variant:#2c2c6c;
+    --color-primary:#4db5ff;
+    --color-primary-variant:rgba(77,181,255,0.4);
+    --color-white:#fff;
+    --color-light:rgba(255,255,255,0.6);
+
+    --container-width-lg:75%;
+    --container-width-md:86%;
+    --container-width-sm:90%;
+
+    --transition: all 400ms ease;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+
+    font-family: "Poppins",sans-serif;
+    background-image:url("./assets/background.png");
+    background-color: rgb(32, 4, 33);
+    color: rgb(255, 255, 255);
+    line-height: 1.7;
+   width: 100%;
+}
+         
+         
+     
+
+
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    align-items: center;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2.5 rem ;
+
+}
+
+section{
+    margin-top: 8rem;
+    
+
+}
+
+section >h2, section >h5{
+    text-align: center;
+    color: var(--color-light);
+
+}
+
+section >h2{
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
+
+.text-light{
+    color:var(--color-light);
+}
+
+a{
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover{
+    color:var(--color-white) ;
+}
+
+
+.btn,.btn-primary{
+    background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
+
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover ;
+}
+
+
+
+
+/*---------------------------------------media query for medium devices*/
+@media screen and (max-width:1024px) {
+    .container{
+        width: var(--container-width-md);
+    }
+     
+    section{
+        margin-top: 6rem;
+        
+    }
+
+    
+}
+
+/*---------------------------------------media query for small devices*/
+@media screen and (max-width: 600px) {
+    .container{
+        width: 100%
+    }
+     
+    section >h2{
+        margin-bottom: 2rem;
+        
+    }
+
+    
+}
+
