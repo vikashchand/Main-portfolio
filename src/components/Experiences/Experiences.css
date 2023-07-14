@@ -59,9 +59,30 @@
     gap: 1rem;
 }
 
+  
+  @keyframes rotation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+  
+ 
+  .icon-container:hover .fa-icon {
+    animation: bounce 0.5s ease-in-out infinite; /* Adjust the animation duration and timing function as needed */
+  }
+  
 .experience__details-icon{
     margin-top: 6px;
     color: var(--color-primary);
+   
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Adjust the font size as needed */
+    animation: rotation 2s linear infinite; /* Adjust the animation duration and timing function as needed */
+    animation-delay: 0.5s; /* Adjust the delay as needed */
 }
 
 .ParticleBackground{

@@ -11,6 +11,25 @@
 }
 
 
+
+
+
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  .fad-icon {
+   
+    font-size: 12px; /* Adjust the font size as needed */
+   /* Adjust the animation duration and timing function as needed */
+   animation: bounce 2s ease infinite; 
+    /* Adjust the delay as needed */
+  }
+  
+ 
+
 /*cta*/
 .cta{
     margin-top: 2.5rem;
@@ -45,22 +64,63 @@ background: var(--color-primary);
 }
 
 
+
+  
+  .fadd{
+   
+  /* Adjust the font size as needed */
+   /* Adjust the animation duration and timing function as needed */
+
+   animation: bounce .5s ease infinite; 
+    /* Adjust the delay as needed */
+  }
+  
+
 /*-----me----------*/
 .Me{
 
-    background: url('../../assets/background.png');
-    background-color: rgb(14, 8, 42);
+
+    
     width: 19rem;
     height: 20rem;
+   
     position: absolute;
     left: calc(50% - 11rem);
-   
+   margin-top: 5rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem;
+    padding: 2rem 1.5rem 1.5rem;
+    
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+   
+    display: block;
 
 }
 
+
+
+
+.Me:hover {
+    background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%);
+  
+    transform: scale(1.2);
+    background-position: right ; /* change the direction of the change here */
+    background: #fff;
+}
+
+
+         
+
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
 /*-----scroll down---------*/
 
 .scroll_down{
