@@ -2,9 +2,10 @@
 
 #https://vikashchand.vercel.app/
 
-![image](https://github.com/vikashchand/Main-portfolio/assets/72156896/5e653c51-b450-4939-9f44-239141c6eebf)
-![image](https://github.com/vikashchand/Main-portfolio/assets/72156896/7c4276af-8918-4588-9dc7-b7c0257f3b37)
-![image](https://github.com/vikashchand/Main-portfolio/assets/72156896/159bdd26-feec-4689-9cca-a07a946861df)
-![image](https://github.com/vikashchand/Main-portfolio/assets/72156896/8df7c2a2-309f-40cb-91f1-cf4f2a9e7120)
-![image](https://github.com/vikashchand/Main-portfolio/assets/72156896/26631caf-3a62-4410-8431-3e71d1719e1c)
-
+![image](https://github.com/vikashchand/Main-portfolio/assets/72156896/e547c618-bfe2-4c8b-ae0c-1880981decf0)
+![image](https://github.com/vikashchand/Main-portfolio/assets/72156896/2982c21e-a75c-460f-a42d-c565d40192ef)
+![image](https://github.com/vikashchand/Main-portfolio/assets/72156896/e7973499-4722-483a-b256-381c2ab0bac0)
+![image](https://github.com/vikashchand/Main-portfolio/assets/72156896/37f09994-9f6c-4c98-8127-516bdd67cbef)
+![image](https://github.com/vikashchand/Main-portfolio/assets/72156896/b49ad22a-79eb-4f8b-9d6f-0614ec84cdc3)
+![image](https://github.com/vikashchand/Main-portfolio/assets/72156896/5ed90c13-1be3-4ab5-a38d-962e995da379)
+![image](https://github.com/vikashchand/Main-portfolio/assets/72156896/093f3812-0abf-4395-b9b0-b2d43c39076d)

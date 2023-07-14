@@ -3,6 +3,7 @@ import './About.css'
 import Me from '../../assets/profile.png'
 import {BsFillAwardFill} from 'react-icons/bs'
 import {MdWork} from 'react-icons/md'
+import {BsNewspaper} from 'react-icons/bs'
 
 import {MdSchool} from 'react-icons/md'
 
@@ -35,10 +36,19 @@ const About = () => {
     
     </article>
 
+    
+
     <article className='about__card'>
     <MdSchool   className='about__icon' />
     <h5>Profile</h5>
     <small>Mtech in SWE</small>
+    
+    </article>
+
+    <article className='about__card'>
+    <BsNewspaper   className='about__icon' />
+    <h5>Research Paper</h5>
+    <small> <a href='https://link.springer.com/chapter/10.1007/978-3-031-27524-1_18' > Drowsiness Detection</a></small>
     
     </article>
 
