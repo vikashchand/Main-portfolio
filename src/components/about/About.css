@@ -25,7 +25,7 @@
 }
 
 .about__me-image:hover {
-    transform: rotate(360deg) scale(1.2);
+    transform: rotate(-10deg) scale(1.2);
     box-shadow: 0 0 10px rgba(31, 3, 94, 0.4);
   border-color: 20px solid black;
    

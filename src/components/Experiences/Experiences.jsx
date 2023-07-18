@@ -1,6 +1,6 @@
 import React from 'react'
 import './Experiences.css'
-import {BsFillPatchCheckFill } from 'react-icons/bs'
+
 import {GiRoundStar} from "react-icons/gi"
 const Experiences = () => {
   return (
@@ -98,13 +98,20 @@ const Experiences = () => {
     <div className='experience__content'>
 
     <article className='experience__details' >
-    < GiRoundStar  className='experience__details-icon'/>
+    <GiRoundStar className='experience__details-icon'/>
+    <div><h4>DSA</h4>
+    <small className='light-text'>Intermediate</small></div>
+    </article>
+
+
+    <article className='experience__details' >
+    <GiRoundStar  className='experience__details-icon'/>
    <div> <h4>Automation and Testing</h4>
    <small className='light-text'>Basic</small></div>
     </article>
 
     <article className='experience__details' >
-    < GiRoundStar  className='experience__details-icon'/>
+    <GiRoundStar  className='experience__details-icon'/>
     <div><h4>Software Engineering</h4>
     <small className='light-text'>Intemediate</small></div>
     </article>
@@ -135,18 +142,8 @@ const Experiences = () => {
     <small className='light-text'>Basic</small></div>
     </article>
 
-    <article className='experience__details' >
-    <GiRoundStar className='experience__details-icon'/>
-    <div><h4>DSA</h4>
-    <small className='light-text'>Intermediate</small></div>
-    </article>
-
-    <article className='experience__details' >
-    <GiRoundStar className='experience__details-icon'/>
-    <div><h4>DSA</h4>
-    <small className='light-text'>Intermediate</small></div>
-    </article>
-
+    
+   
 
 
 
