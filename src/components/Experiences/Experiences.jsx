@@ -103,30 +103,27 @@ const Experiences = () => {
     <small className='light-text'>Intermediate</small></div>
     </article>
 
-
-    <article className='experience__details' >
-    <GiRoundStar  className='experience__details-icon'/>
-   <div> <h4>Automation and Testing</h4>
-   <small className='light-text'>Basic</small></div>
-    </article>
-
-    <article className='experience__details' >
-    <GiRoundStar  className='experience__details-icon'/>
-    <div><h4>Software Engineering</h4>
-    <small className='light-text'>Intemediate</small></div>
-    </article>
-
     <article className='experience__details' >
     <GiRoundStar className='experience__details-icon'/>
    <div> <h4>c++</h4>
    <small className='light-text'>Intermediate</small></div>
     </article>
 
+
     <article className='experience__details' >
-    <GiRoundStar className='experience__details-icon'/>
-   <div> <h4>Cybersecurity</h4>
+    < GiRoundStar  className='experience__details-icon'/>
+   <div> <h4>Automation and Testing</h4>
    <small className='light-text'>Basic</small></div>
     </article>
+
+    <article className='experience__details' >
+    < GiRoundStar  className='experience__details-icon'/>
+    <div><h4>Software Engineering</h4>
+    <small className='light-text'>Intemediate</small></div>
+    </article>
+
+  
+
 
     <article className='experience__details' >
     <GiRoundStar className='experience__details-icon'/>
@@ -142,8 +139,13 @@ const Experiences = () => {
     <small className='light-text'>Basic</small></div>
     </article>
 
-    
    
+    <article className='experience__details' >
+    <GiRoundStar className='experience__details-icon'/>
+   <div> <h4>Cybersecurity</h4>
+   <small className='light-text'>Basic</small></div>
+    </article>
+    
 
 
 

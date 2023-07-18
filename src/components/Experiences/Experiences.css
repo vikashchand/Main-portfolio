@@ -13,7 +13,7 @@
 
 .experience__container >div{
     background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%);
-    margin: 8px;
+    margin: 10px;
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
@@ -42,8 +42,8 @@
 }
 
 .experience__container >div h3{
-  
-    margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
     color: var(--color-primary);
 }
 
@@ -76,11 +76,11 @@
   }
   
 .experience__details-icon{
-    margin-top: 20px;
+    margin-top: 6px;
     color: var(--color-primary);
- 
+   
     transform: translate(-50%, -50%);
-    font-size: 18px; /* Adjust the font size as needed */
+    font-size: 24px; /* Adjust the font size as needed */
     animation: rotation 2s linear infinite; /* Adjust the animation duration and timing function as needed */
     animation-delay: 0.5s; /* Adjust the delay as needed */
 }
@@ -114,8 +114,8 @@ display: block;
         gap:2rem;
      }
      .experience__container >div {
-        width: 75%;
-        padding: 2.4rem 1.5rem;
+        width: 80%;
+        padding: 1.5rem;
        
      }
 
