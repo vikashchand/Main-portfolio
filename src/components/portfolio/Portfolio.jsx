@@ -65,6 +65,20 @@ const Portfolio = () => {
    <a href='https://posting-prompt.vercel.app/' className='btn btn-primary'> Demo</a>
    </div>
     </article>
+  
+    
+    <article className='portfolio__item'>
+    <div className='portfolio__item-image'>
+    <img src="https://user-images.githubusercontent.com/72156896/254686248-d94574b1-6c3c-4f57-b553-8cf17c606319.png" alt='ml'/>
+    </div>
+    <h3>QuickWapp </h3>
+   <div className='portfolio__item-cta'>
+   <a href='https://github.com/vikashchand/QuickWhatsapp' className='btn' >Github</a>
+   <a href='https://quick-whatsapp.vercel.app/' className='btn btn-primary'> Demo</a>
+   </div>
+    </article>
+
+
 
 
 
