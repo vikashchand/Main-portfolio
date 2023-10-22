@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Me from '../../assets/profile.png'
+import Me from '../../assets/vikbg.png'
 import {BsFillAwardFill} from 'react-icons/bs'
 import {MdWork} from 'react-icons/md'
 import {BsNewspaper} from 'react-icons/bs'
