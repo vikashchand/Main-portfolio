@@ -19,17 +19,52 @@
     place-items: center;
 }
 
-.about__me-image{
-    border-radius: 2rem;
-    
-    transform: rotate(10deg);
-    transition: all 400ms ease;
+.about__me-image {
+    border-radius: 1rem;
+    transition: transform 0.9s ease, box-shadow 0.2s ease;
 }
 
-.about__me-image:hover{
-    transform: rotate(0 );
+.about__me-image:hover {
+    transform: rotate(-10deg) scale(1.2);
+    box-shadow: 0 0 10px rgba(31, 3, 94, 0.4);
+  border-color: 20px solid black;
+   
+  background: #fff;
     
 }
+
+
+  
+  @keyframes rotation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  .fa-icon {
+    position: absolute;
+    
+    
+ 
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Adjust the font size as needed */
+    animation: rotation 2s linear infinite; /* Adjust the animation duration and timing function as needed */
+    animation-delay: 0.5s; /* Adjust the delay as needed */
+
+    
+  }
+  
+  .about__card:hover .fa-icon {
+    
+    animation: bounce 0.5s ease-in-out infinite; /* Adjust the animation duration and timing function as needed */
+  }
+  
+
+
 
 .about__cards{
     display: grid;
@@ -39,7 +74,17 @@
 }
 
 .about__card{
-    background: var(--color-bg-variant);
+    background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
     border: 1px solid transparent;
     border-radius: 2rem;
     padding: 2rem;
@@ -48,14 +93,15 @@
 }
 
 .about__card:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
 }
 .about__icon{
     color:var(--color-primary);
     font-size: 1.4rem;
     margin-top: 1rem;
+   
 
 }
 

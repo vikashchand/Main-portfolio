@@ -1,7 +1,7 @@
 .portfolio__container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap:2.5rem;
+    gap:1.5rem;
 }
 .ParticleBackground{
     position: fixed !important;
@@ -9,9 +9,18 @@ display: block;
 }
 
 .portfolio__item{
-    background: var(--color-bg-variant);
-    padding: 1.3rem;
-    border-radius: 2rem;
+    background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%);
+    margin: 10px;
+  
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+   
+    display: block;
+ 
     border: 1px solid transparent;
     transition: var(--transition);
     }
@@ -23,7 +32,7 @@ display: block;
 
     .portfolio__item-image{
         height:10rem;
-        border-radius: 1.5rem;
+        border-radius: 5px;
         overflow: hidden;
 
     }

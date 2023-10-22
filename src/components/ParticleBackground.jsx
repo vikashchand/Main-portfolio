@@ -28,20 +28,20 @@ export default function ParticleBackground() {
         
             "particles": {
               "number": {
-                "value": 80,
+                "value": 10,
                 "density": {
                   "enable": true,
                   "value_area": 800
                 }
               },
               "color": {
-                "value": "#0e3c8e"
+                "value": "#4db5ff"
               },
               "shape": {
-                "type": "star",
+                "type": "circle",
                 "stroke": {
-                  "width": 0,
-                  "color": "yellow"
+                  "width": 5,
+                  "color": "black"
                 },
                 "polygon": {
                   "nb_sides": 8
@@ -56,8 +56,8 @@ export default function ParticleBackground() {
                 "value": 0.9,
                 "random": false,
                 "anim": {
-                  "enable": false,
-                  "speed": 1,
+                  "enable": true,
+                  "speed": 1000,
                   "opacity_min": 0.1,
                   "sync": false
                 }
@@ -67,13 +67,13 @@ export default function ParticleBackground() {
                 "random": true,
                 "anim": {
                   "enable": false,
-                  "speed": 80.18596664587774,
+                  "speed": 1000.18596664587774,
                   "size_min": 0.1,
                   "sync": false
                 }
               },
               "line_linked": {
-                "enable": true,
+                "enable": false,
                 "distance": 150,
                 "color": "#ffffff",
                 "opacity": 0.4,

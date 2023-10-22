@@ -1,13 +1,20 @@
 footer{
-    background: var(--color-primary);
-    padding: 3rem 0;
+    
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+  
+    color: white;            
+   
+
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
 }
 
 footer a{
-    color: var(--color-bg);
+    color: white;
 }
 
 
@@ -16,7 +23,7 @@ footer a{
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
-    
+    color: white;
 }
 
 .permalinks{
@@ -35,7 +42,7 @@ ul{
 
 .footer__copyright{
     margin-bottom: 4rem;
-    color: var(--color-bg)    ;
+    color: white;  ;
 }
 
 

@@ -1,11 +1,12 @@
 import React from 'react'
 import './Header.css'
 import CTA from './CTA'
-import Me from '../../assets/Me.png'
+import Me from '../../assets/profile.png'
+
 import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
-   <header>
+  <div className="headers">
    
    <div className='container header_container'>
    <h5>Hello I'm</h5>
@@ -23,7 +24,7 @@ const Header = () => {
 
 
    </div>
-   </header>
+   </div>
   )
 }
 
