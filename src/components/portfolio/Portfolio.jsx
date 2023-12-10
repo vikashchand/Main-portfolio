@@ -26,12 +26,12 @@ const Portfolio = () => {
 
     <article className='portfolio__item'>
     <div className='portfolio__item-image'>
-    <img src="https://user-images.githubusercontent.com/72156896/253094550-94d6ad23-0a90-4e8a-bd4e-c90b731bd64d.png" alt='ml'/>
+    <img src="https://github.com/vikashchand/VITPYQ/assets/72156896/6ef1708f-13ef-4bfe-a0ed-fed37127afd4" alt='ml'/>
     </div>
-    <h3>Chatgpt Prompts </h3>
+    <h3>Exam Archive Webapp </h3>
    <div className='portfolio__item-cta'>
-   <a href='https://github.com/vikashchand/posting-prompt' className='btn' >Github</a>
-   <a href='https://posting-prompt.vercel.app/' className='btn btn-primary'> Demo</a>
+   <a href='https://github.com/vikashchand/VITPYQ' className='btn' >Github</a>
+   <a href='https://20mis.vercel.app/' className='btn btn-primary'> Demo</a>
    </div>
     </article>
 
@@ -48,6 +48,27 @@ const Portfolio = () => {
     <a href='https://senior-guardian.vercel.app/' className='btn btn-primary'> Demo</a>
     </div>
     </article>
+
+
+
+
+
+
+
+
+    <article className='portfolio__item'>
+    <div className='portfolio__item-image'>
+    <img src="https://user-images.githubusercontent.com/72156896/253094550-94d6ad23-0a90-4e8a-bd4e-c90b731bd64d.png" alt='ml'/>
+    </div>
+    <h3>Chatgpt Prompts </h3>
+   <div className='portfolio__item-cta'>
+   <a href='https://github.com/vikashchand/posting-prompt' className='btn' >Github</a>
+   <a href='https://posting-prompt.vercel.app/' className='btn btn-primary'> Demo</a>
+   </div>
+    </article>
+
+
+
 
 
 
