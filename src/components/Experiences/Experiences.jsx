@@ -28,7 +28,7 @@ const Experiences = () => {
     <article className='experience__details' >
     <GiRoundStar className='experience__details-icon'/>
     <div><h4>Next js</h4>
-    <small className='light-text'>Intermediate</small></div>
+    <small className='light-text'>Basic</small></div>
     </article>
 
     
