@@ -105,7 +105,7 @@ const Experiences = () => {
 
     <article className='experience__details' >
     <GiRoundStar className='experience__details-icon'/>
-   <div> <h4>c++</h4>
+   <div> <h4>C++</h4>
    <small className='light-text'>Intermediate</small></div>
     </article>
 

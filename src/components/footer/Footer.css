@@ -5,7 +5,7 @@ footer{
     text-transform: uppercase;
     transition: 0.5s;
   
-    color:    var(--color-white: #000000);            
+    color:    var(--color-white);            
    
 
     text-align: center;
@@ -14,7 +14,7 @@ footer{
 }
 
 footer a{
-    color:    var(--color-white: #000000);    
+    color:    var(--color-white);    
 }
 
 
