@@ -9,6 +9,7 @@ import Contact from './components/Contacts/Contact'
 import Footer from './components/footer/Footer'
 import Portfolio from './components/portfolio/Portfolio'
 import ParticleBackground from './components/ParticleBackground'
+import WorkExperience from './components/WorkExperience/WorkExperience'
 
 
 
@@ -18,12 +19,13 @@ const App = () => {
 <ParticleBackground/>
 <Header/>
 <Nav/>
+<WorkExperience/>
 <About/>
+
 <Experiences/>
 
 <Portfolio/>
 
-<Contact/>
 <Footer/>
 
 

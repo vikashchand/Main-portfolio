@@ -17,7 +17,7 @@
 }
 
 .contact__option{
-    background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%);
+  background-image: var( --background-gradient);
     margin: 10px;
     padding: 15px 45px;
     text-align: center;
@@ -37,7 +37,7 @@
 }
 
 .contact__option:hover{
-    background: transparent;
+  animation: bounce 0.8s ease-in ;
     border-color: var(--color-primary-variant);
 }
 

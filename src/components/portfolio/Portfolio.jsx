@@ -27,7 +27,7 @@ const Portfolio = () => {
 
     <article className='portfolio__item'>
     <div className='portfolio__item-image'>
-    <img src="https://github.com/vikashchand/VITPYQ/assets/72156896/6ef1708f-13ef-4bfe-a0ed-fed37127afd4" alt='ml'/>
+    <img src="https://private-user-images.githubusercontent.com/72156896/335864857-6d8271e8-70bb-4c24-82e2-cf6b460c45f4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTczMzE0MjUsIm5iZiI6MTcxNzMzMTEyNSwicGF0aCI6Ii83MjE1Njg5Ni8zMzU4NjQ4NTctNmQ4MjcxZTgtNzBiYi00YzI0LTgyZTItY2Y2YjQ2MGM0NWY0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjAyVDEyMjUyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAyZDgyNmNlNTYxMWYzOTE1OTg0OGUwYzRhZTAzNGU1MzJhMGI3NjljMjQ3ZjQwNTYyNDZkZjBhZWI4MTg0NTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.QK4aZJNj4b6kQE3u537RXGiRsn6j-ecaiPhbuuxs_6w" alt='ml'/>
     </div>
     <h3>Intelligent Question Paper Archive </h3>
    <div className='portfolio__item-cta'>
@@ -48,12 +48,12 @@ const Portfolio = () => {
     <article className='portfolio__item'>
     <div className='portfolio__item-image'>
    
-    <img src="https://private-user-images.githubusercontent.com/72156896/308803404-23e0d4e4-5dbe-4431-aff2-d21cd0ea8e20.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkxODQxMTMsIm5iZiI6MTcwOTE4MzgxMywicGF0aCI6Ii83MjE1Njg5Ni8zMDg4MDM0MDQtMjNlMGQ0ZTQtNWRiZS00NDMxLWFmZjItZDIxY2QwZWE4ZTIwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI5VDA1MTY1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIzMjc4ZDI2ZmY5MTk4NjVkNjU3YWNkYzQ1YzI4NzQ4YmUwYzRjYzI4YzliYTc2OWMzY2EyMThkYjNiNzlmYTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.A06mlkZEfbN3L-PI6k0tG9V3yErfo8mIO3rnT79QKwg"/>
+    <img src="https://private-user-images.githubusercontent.com/72156896/335864997-b92f8ccd-bf25-47fe-a2be-79e063aa4eba.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTczMzE1NjksIm5iZiI6MTcxNzMzMTI2OSwicGF0aCI6Ii83MjE1Njg5Ni8zMzU4NjQ5OTctYjkyZjhjY2QtYmYyNS00N2ZlLWEyYmUtNzllMDYzYWE0ZWJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjAyVDEyMjc0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE3ZDJhNTQ4NTA3OTU5ODA5YjZkMDc3ODliYmMzYjM0ZjEzM2QzM2RmMDJkYjM1NGYyZWU2MDVkMzk3MDBjMTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.5tcAJbWak1riiDVJjjqZd3DN9KOabapIyx0Z0yDB1pg"/>
     </div>
-    <h3>Resume Generator </h3>
+    <h3>Nptel quiz </h3>
    <div className='portfolio__item-cta'>
-   <a href='https://resumegenius.vercel.app/' className='btn btn-primary'> Demo</a>
-   <a href='https://github.com/vikashchand/Resume-Generator-' className='btn' >Github</a>
+   <a href='https://nptelquiz.vercel.app/' className='btn btn-primary'> Demo</a>
+   <a href='https://github.com/vikashchand/nptel' className='btn' >Github</a>
   
    </div>
     </article>

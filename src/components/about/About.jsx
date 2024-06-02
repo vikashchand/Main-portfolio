@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Me from '../../assets/vikbg.png'
+import Me from '../../assets/vik.png'
 import {BsFillAwardFill} from 'react-icons/bs'
 import {MdWork} from 'react-icons/md'
 import {BsNewspaper} from 'react-icons/bs'
@@ -143,13 +143,11 @@ const About = () => {
 
 
     </div>
-    <p>Just a dog lover and a developer who loves doing random projects just to quench the fire of learning new skills.
-    umm i am much interested in becoming a block chain developer and also loves reading about cybersecurity ,hehe yeah i am a script kiddie too 👨‍💻😁.
-    
-    </p>
+    <h4>
+    A dog-loving 🐶 developer passionate about learning, particularly in cloud engineering (AWS ☁️), cybersecurity 🔒, and web development (MERN stack). Known for adding unique features to projects and always seeking to expand skills. Also, enjoys dabbling as a script kiddie! 👨‍💻😁❤️
+    </h4>
 
   
-<a href='#contact' className='btn btn-primary'>Let's Code</a>
 
 
     </div>

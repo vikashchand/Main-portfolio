@@ -17,7 +17,7 @@ display: block;
 }
 
 .portfolio__item{
-    background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%);
+    background-image: var( --background-gradient);
     margin: 10px;
   
     text-align: center;
@@ -35,7 +35,8 @@ display: block;
 
     .portfolio__item:hover{
         border-color: var(--color-primary-variant);
-        background: transparent;
+        animation: bounce 0.8s ease-in ;
+       
     }
 
     .portfolio__item-image{

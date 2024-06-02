@@ -10,6 +10,12 @@
     width: 100%;
 }
 
+.intro{
+  transition: 0.7s ease-in;
+}
+.intro:hover{
+  transform: scale(1.2);
+}
 
 
 
@@ -36,7 +42,13 @@
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+    transition: 1s ease-in;
 
+}
+
+.cta:hover{
+  
+  transform: scale(1.2);
 }
 
 /*------------*/
@@ -51,6 +63,13 @@
     left: 1rem;
     bottom: 3rem ;
     z-index: 999;
+
+ 
+   
+}
+
+.Header__socials a{
+  color: var(--color-white);
 }
 
 .Header__socials::after{
@@ -163,5 +182,52 @@ background: var(--color-primary);
         flex-direction: column;
         
        }
+
+
+
+       .Me{
+
+
     
+        width: 19rem;
+        height: 20rem;
+       
+        position: absolute;
+        left: calc(50% - 9.6rem);
+    
+       }
+}
+.toggle-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+  font-size: 1.2rem;
+}
+
+.toggle-btn:hover {
+  background-color: var(--color-primary-variant);
+}
+
+.toggle-btn svg {
+  transition: transform 0.3s ease;
+}
+
+.toggle-btn .fa-moon {
+  transform: rotate(-20deg);
+}
+
+.toggle-btn .fa-sun {
+  transform: rotate(20deg);
 }
