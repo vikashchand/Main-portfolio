@@ -1,5 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
+import nptel from '../../assets/nptel.png';
+import vitpyq from '../../assets/vitpyq.png';
 
 const Portfolio = () => {
   return (
@@ -27,7 +29,7 @@ const Portfolio = () => {
 
     <article className='portfolio__item'>
     <div className='portfolio__item-image'>
-    <img src="https://private-user-images.githubusercontent.com/72156896/335864857-6d8271e8-70bb-4c24-82e2-cf6b460c45f4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTczMzE0MjUsIm5iZiI6MTcxNzMzMTEyNSwicGF0aCI6Ii83MjE1Njg5Ni8zMzU4NjQ4NTctNmQ4MjcxZTgtNzBiYi00YzI0LTgyZTItY2Y2YjQ2MGM0NWY0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjAyVDEyMjUyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAyZDgyNmNlNTYxMWYzOTE1OTg0OGUwYzRhZTAzNGU1MzJhMGI3NjljMjQ3ZjQwNTYyNDZkZjBhZWI4MTg0NTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.QK4aZJNj4b6kQE3u537RXGiRsn6j-ecaiPhbuuxs_6w" alt='ml'/>
+    <img src={vitpyq} alt='ml'/>
     </div>
     <h3>Intelligent Question Paper Archive </h3>
    <div className='portfolio__item-cta'>
@@ -48,7 +50,7 @@ const Portfolio = () => {
     <article className='portfolio__item'>
     <div className='portfolio__item-image'>
    
-    <img src="https://private-user-images.githubusercontent.com/72156896/335864997-b92f8ccd-bf25-47fe-a2be-79e063aa4eba.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTczMzE1NjksIm5iZiI6MTcxNzMzMTI2OSwicGF0aCI6Ii83MjE1Njg5Ni8zMzU4NjQ5OTctYjkyZjhjY2QtYmYyNS00N2ZlLWEyYmUtNzllMDYzYWE0ZWJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjAyVDEyMjc0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE3ZDJhNTQ4NTA3OTU5ODA5YjZkMDc3ODliYmMzYjM0ZjEzM2QzM2RmMDJkYjM1NGYyZWU2MDVkMzk3MDBjMTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.5tcAJbWak1riiDVJjjqZd3DN9KOabapIyx0Z0yDB1pg"/>
+    <img src={nptel}/>
     </div>
     <h3>Nptel quiz </h3>
    <div className='portfolio__item-cta'>
