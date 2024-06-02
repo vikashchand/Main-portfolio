@@ -4,7 +4,7 @@
     gap:1.5rem;
 
 
-
+padding-right: 20px;
 
 }
 
@@ -76,6 +76,18 @@ display: block;
 .portfolio__container{
     grid-template-columns: 1fr;
     gap: 1rem;
+    align-items: center;
 }
     
+
+.portfolio__item{
+    width:97%;
+}
+
+
+.portfolio__item-cta{
+    display: flex;
+    gap:1px;
+    margin-bottom: 1rem;
+}
 }
