@@ -81,7 +81,9 @@ display: block;
     
 
 .portfolio__item{
-    width:97%;
+    width:100%;
+    margin: 0px;
+    padding-right: 7px;
 }
 
 

@@ -52,7 +52,7 @@
  
     transform: translate(-50%, -50%);
     font-size: 24px; /* Adjust the font size as needed */
-    animation: rotation 2s linear infinite; /* Adjust the animation duration and timing function as needed */
+   /* Adjust the animation duration and timing function as needed */
     animation-delay: 0.5s; /* Adjust the delay as needed */
 
     
@@ -78,10 +78,10 @@
     margin: 10px;
     padding: 15px 45px;
     text-align: center;
-    text-transform: uppercase;
+ 
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+              
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
@@ -91,6 +91,11 @@
  text-align: center;
  transition: var(--transition);
 }
+
+
+
+
+
 
 .about__card:hover{
     background-position: right center; /* change the direction of the change here */
@@ -112,8 +117,8 @@
 }
 
 .about__card small{
-    font-size: 0.7rem;
-    color: var(--color-primary);
+    font-size: 1rem;
+    color: var( --color-white);
 }
 
 
@@ -129,7 +134,10 @@ display: block;
 
 
 
-
+.about__card small a{
+   
+    color: var(--color-white);
+}
 
 /*---------------------------------------media query for medium devices*/
 @media screen and (max-width:1024px) {
@@ -146,6 +154,8 @@ display: block;
     .about__content p{
         margin: 1rem 0 1.5rem;
     }
+
+   
 
  }
  
@@ -181,7 +191,7 @@ display: block;
         text-transform: uppercase;
         transition: 0.5s;
         background-size: 200% auto;
-        color: white;            
+                  
         box-shadow: 0 0 20px #eee;
         border-radius: 10px;
         display: block;
@@ -195,7 +205,7 @@ display: block;
 
 
     .about__icon{
-        color:var(--color-primary);
+        color:var(--color-white);
         font-size: 15px;
         margin-top: 10px;
        
@@ -209,7 +219,12 @@ display: block;
     
     .about__card small{
         font-size: 0.7rem;
-        color: var(--color-primary);
+        color: var(--color-white);
+    }
+
+    .about__card small a{
+        font-size: 0.7rem;
+        color: var(--color-white);
     }
     
     

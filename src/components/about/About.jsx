@@ -143,9 +143,9 @@ const About = () => {
 
 
     </div>
-    <h4>
+    <p>
     A dog-loving 🐶 developer passionate about learning, particularly in cloud engineering (AWS ☁️), cybersecurity 🔒, and web development (MERN stack). Known for adding unique features to projects and always seeking to expand skills. Also, enjoys dabbling as a script kiddie! 👨‍💻😁❤️
-    </h4>
+    </p>
 
   
 

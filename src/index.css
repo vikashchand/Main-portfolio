@@ -1,5 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 :root {
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
@@ -9,8 +12,8 @@
     --color-light: rgba(255, 255, 255, 0.6);
 
     --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --container-width-md: 100%;
+    --container-width-sm: 100%;
 
     --transition: all 400ms ease;
     --background-gradient: linear-gradient(to right, #000000 0%, #53346D 51%, #000000 100%);
@@ -48,7 +51,7 @@ body {
     background-image: url("./assets/background.png");
     background-color: var(--color-bg);
     color: var(--color-white);
-    line-height: 1.7;
+
     width: 100%;
 }
 
@@ -139,3 +142,4 @@ img {
         margin-bottom: 2rem;
     }
 }
+

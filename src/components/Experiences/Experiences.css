@@ -116,7 +116,7 @@ display: block;
         gap:2rem;
      }
      .experience__container >div {
-        width: 80%;
+        width: 100%;
         padding: 1.5rem;
        
      }
@@ -163,7 +163,7 @@ display: block;
 
 .experience__container >div{
 
-margin: 10px;
+margin: 5px;
 padding: 10px 28px;
 text-align: center;
 text-transform: uppercase;
