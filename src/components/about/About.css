@@ -5,7 +5,7 @@
 }
 
 .about__me{
-    width:100%;
+    width:80%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
@@ -86,8 +86,8 @@
     border-radius: 10px;
     display: block;
     border: 1px solid transparent;
-    border-radius: 2rem;
-    padding: 2rem;
+    
+    padding: 5px;
  text-align: center;
  transition: var(--transition);
 }
@@ -99,7 +99,7 @@
 
 .about__card:hover{
     background-position: right center; /* change the direction of the change here */
-    color: #fff;
+  
     text-decoration: none;
     transform: scale(1.1);
 }
@@ -124,7 +124,7 @@
 
 .about__content p{
     margin: 2rem 0 2,6rem;
-    color: var(--color-light);
+    color: var(--color-white);
 }
 
 .ParticleBackground{
@@ -230,7 +230,7 @@ display: block;
     
     .about__content p{
         margin: 2rem 0 2,6rem;
-        color: var(--color-light);
+        color: var(--color-white);
     }
     
     

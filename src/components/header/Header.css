@@ -85,12 +85,12 @@ background: var(--color-primary);
 
 
   
-  .fadd{
+  .fadd:hover{
    
   /* Adjust the font size as needed */
    /* Adjust the animation duration and timing function as needed */
 
-   animation: bounce .5s ease infinite; 
+   animation: bounce .9s ease-in; 
     /* Adjust the delay as needed */
   }
   

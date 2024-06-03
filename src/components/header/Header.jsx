@@ -6,6 +6,8 @@ import Me from '../../assets/profile.png';
 import HeaderSocials from './HeaderSocials';
 import ParticleBackground from '../ParticleBackground';
 
+import hi from '../../assets/vikbg.png';
+
 const Header = () => {
   const [isLightMode, setIsLightMode] = useState(true);
 
@@ -22,7 +24,8 @@ const Header = () => {
   }, [isLightMode]);
 
   return (
-    <div className="headers">
+    <section id='vik' >
+    <div className="headers" >
       <ParticleBackground isLightMode={isLightMode} /> {/* Add ParticleBackground component */}
     
       
@@ -43,6 +46,7 @@ const Header = () => {
         </button>
       </div>
     </div>
+    </section>
   );
 };
 

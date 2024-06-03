@@ -1,10 +1,13 @@
 .portfolio__container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap:1.5rem;
+    gap:1rem;
 
 
 padding-right: 20px;
+
+justify-items: center; /* This will center the items horizontally */
+align-items: center;
 
 }
 
@@ -17,20 +20,23 @@ display: block;
 }
 
 .portfolio__item{
-    background-image: var( --background-gradient);
+   background: transparent;
     margin: 10px;
   
     text-align: center;
    
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
-    box-shadow: 0 0 20px #eee;
+    color: var(--color-white);           
+    box-shadow: 0 0 20px #b18585;
    
     display: block;
  
-    border: 1px solid transparent;
+    border: 2px solid black;
+    border-radius: 10px  ;
     transition: var(--transition);
+  
+    padding: 10px 18px;
     }
 
     .portfolio__item:hover{
@@ -43,12 +49,15 @@ display: block;
         height:10rem;
         border-radius: 5px;
         overflow: hidden;
+        border: 2px solid var(--color-white);
 
     }
 
     .portfolio__item h3{
 
         margin: 1.2rem 0 2 rem;
+       font-size: small;
+     font-weight: 550;
 
     }
 
@@ -72,24 +81,26 @@ display: block;
 
 /*---------------------------------------media query for small devices*/
 @media screen and (max-width: 600px) {
+
+
     
 .portfolio__container{
     grid-template-columns: 1fr;
     gap: 1rem;
-    align-items: center;
+
+  
 }
     
 
 .portfolio__item{
-    width:100%;
-    margin: 0px;
-    padding-right: 7px;
+    width:90%;
+   
 }
 
 
 .portfolio__item-cta{
     display: flex;
-    gap:1px;
-    margin-bottom: 1rem;
+    gap:0px;
+    margin-bottom: .5rem;
 }
 }

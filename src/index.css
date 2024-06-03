@@ -24,7 +24,7 @@
 body.light-mode {
     --color-bg: #ffffff;
     --color-bg-variant: #f0f0f0;
-    --color-primary: #89c4e6;
+    --color-primary: #badbef;
     --color-primary-variant: rgba(148, 185, 209, 0.4);
     --color-white: #010101;
     --color-light: rgba(0, 0, 0, 0.6);
@@ -32,8 +32,9 @@ body.light-mode {
     color: #000000;
     
     --background-gradient: linear-gradient(to right, #ff758c 0%, #ff1744 50%, #ff80d1 100%);
-    --background-gradient: linear-gradient(to right, #ff758c 0%, #ff5c8d 50%, #eb5959 100%);
-
+    --background-gradient: linear-gradient(to right, #f18294 0%, #f9739b 50%, #ff8b8b 100%);
+   
+    
 }
 
 
@@ -79,16 +80,16 @@ section > h2, section > h5 {
 }
 
 section > h2 {
-    color: var(--color-primary);
+    color: var(--color-white);
     margin-bottom: 3rem;
 }
 
 .text-light {
-    color: var(--color-light);
+    color: var(--color-white);
 }
 
 a {
-    color: var(--color-primary);
+    color: var(--color-white);
     transition: var(--transition);
 }
 
@@ -97,7 +98,8 @@ a:hover {
 }
 
 .btn, .btn-primary {
-    background-image: linear-gradient(to right, #000000 0%, #53346D 51%, #000000 100%);
+    background-image:var( --background-gradient);
+    
     margin: 5px;
     padding: 10px 30px;
     text-align: center;
