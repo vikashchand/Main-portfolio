@@ -1,13 +1,12 @@
 .headers{
-    height: 100vh;
-    padding-top: 2rem;
-   
-    width: 100vw;
+  height: 100vh;
+  padding-top: 2rem;
+  width: 100vw;
 }
 
 .header_container{
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 .intro{
@@ -17,186 +16,173 @@
   transform: scale(1.2);
 }
 
-
-
-
-  
-  @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-  }
-  
-  .fad-icon {
-   
-    font-size: 12px; /* Adjust the font size as needed */
-   /* Adjust the animation duration and timing function as needed */
-   animation: bounce 2s ease infinite; 
-    /* Adjust the delay as needed */
-  }
-  
- 
-
-/*cta*/
-.cta{
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
-    transition: 1s ease-in;
-
+/* Animations */
+.animation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
 }
 
-.cta:hover{
-  
+.launch img {
+  width: 100px;
+  animation: launch-animation 3.5s forwards;
+}
+
+.awake img {
+  width: 100px;
+  animation: awake-animation 2.5s forwards;
+}
+
+@keyframes launch-animation {
+  0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(200px, -200px);
+    opacity: 0.7;
+  }
+  70% {
+    transform: translate(300px, -300px);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translate(400px, -400px);
+    opacity: 0;
+  }
+}
+
+@keyframes awake-animation {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Other existing styles */
+.fad-icon {
+  font-size: 12px;
+  animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.fadd:hover {
+  animation: bounce 0.9s ease-in;
+}
+
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  transition: 1s ease-in;
+}
+
+.cta:hover {
   transform: scale(1.2);
 }
 
-/*------------*/
-
-.Header__socials{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- font-size: xx-large;
-    gap: 0.9rem;
-    position: absolute;
-    left: 1rem;
-    bottom: 3rem ;
-    z-index: 999;
-
- 
-   
+.Header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: xx-large;
+  gap: 0.9rem;
+  position: absolute;
+  left: 1rem;
+  bottom: 3rem;
+  z-index: 999;
 }
 
-.Header__socials a{
+.Header__socials a {
   color: var(--color-white);
 }
 
-.Header__socials::after{
-content: '';
-width: 5px;
-height: 2rem;
-
-background: var(--color-primary);
-
-
+.Header__socials::after {
+  content: '';
+  width: 5px;
+  height: 2rem;
+  background: var(--color-primary);
 }
 
-
-
-  
-  .fadd:hover{
-   
-  /* Adjust the font size as needed */
-   /* Adjust the animation duration and timing function as needed */
-
-   animation: bounce .9s ease-in; 
-    /* Adjust the delay as needed */
-  }
-  
-
-/*-----me----------*/
-.Me{
-
-
-    
-    width: 19rem;
-    height: 20rem;
-   
-    position: absolute;
-    left: calc(50% - 11rem);
-   margin-top: 5rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 2rem 1.5rem 1.5rem;
-    
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
-    box-shadow: 0 0 20px #eee;
-   
-    display: block;
-
+.Me {
+  width: 19rem;
+  height: 20rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 5rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 2rem 1.5rem 1.5rem;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  display: block;
 }
-
-
-
 
 .Me:hover {
-    background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%);
-  
-    transform: scale(1.2);
-    background-position: right ; /* change the direction of the change here */
-    background: #fff;
+  background-image: linear-gradient(to right, #000000 0%, #53346D 51%, #000000 100%);
+  transform: scale(1.2);
+  background-position: right;
+  background: #fff;
 }
 
-
-         
-
-
-  .btn-grad:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-  }
- 
-/*-----scroll down---------*/
-
-.scroll_down{
-    position:absolute ;
-    color: rgb(245, 236, 236);
-    right: -2.2rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
-
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
 
+.scroll_down {
+  position: absolute;
+  color: rgb(245, 236, 236);
+  right: -2.2rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
 
-
-
-
-/*---------------------------------------media query for medium devices*/
-@media screen and (max-width:1024px) {
-   header{
+@media screen and (max-width: 1024px) {
+  header {
     height: 68vh;
-
-   }
-    
-    
+  }
 }
 
-/*---------------------------------------media query for small devices*/
-@media screen and (max-width:600px) {
-    
-    header{
-        height: 100vh;
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+    width: 100%;
+  }
 
-        width: 100%;
-    
-       }
+  .Header__socials {
+    display: flex;
+    flex-direction: column;
+  }
 
-       .Header__socials{
-        display:flex;
-        flex-direction: column;
-        
-       }
-
-
-
-       .Me{
-
-
-    
-        width: 19rem;
-        height: 20rem;
-       
-        position: absolute;
-        left: calc(50% - 9.6rem);
-    
-       }
+  .Me {
+    width: 19rem;
+    height: 20rem;
+    position: absolute;
+    left: calc(50% - 9.6rem);
+  }
 }
+
 .toggle-btn {
   position: absolute;
   top: 1rem;

@@ -36,7 +36,7 @@ display: block;
     border-radius: 10px  ;
     transition: var(--transition);
   
-    padding: 10px 18px;
+    padding: 10px 10px;
     }
 
     .portfolio__item:hover{
