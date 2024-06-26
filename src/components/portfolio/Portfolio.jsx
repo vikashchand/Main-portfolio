@@ -2,7 +2,9 @@ import React from 'react'
 import './Portfolio.css'
 import nptel from '../../assets/nptel.png';
 import vitpyq from '../../assets/vitpyq.png';
-
+import ace from '../../assets/ace.png';
+import job from '../../assets/jobsearch.png';
+import gym from '../../assets/gym.png';
 const Portfolio = () => {
   return (
     <section id="portfolio" >
@@ -46,7 +48,57 @@ const Portfolio = () => {
 
 
 
+    <article className='portfolio__item'>
+    <div className='portfolio__item-image'>
+    <img src="https://user-images.githubusercontent.com/72156896/253094550-94d6ad23-0a90-4e8a-bd4e-c90b731bd64d.png" alt='ml'/>
+    </div>
+    <h3>Chatgpt Prompts </h3>
+   <div className='portfolio__item-cta'>
+   <a href='https://github.com/vikashchand/posting-prompt' className='btn' >Github</a>
+   <a href='https://posting-prompt.vercel.app/' className='btn btn-primary'> Demo</a>
+   </div>
+    </article>
+
+
+
+    <article className='portfolio__item'>
+    <div className='portfolio__item-image'>
+    <img src={gym} alt='ml'/>
+    </div>
+    <h3>Gym website </h3>
+   <div className='portfolio__item-cta'>
+   <a href='https://github.com/vikashchand/maxxfitness' className='btn' >Github</a>
+   <a href='https://maxfitness.vercel.app/' className='btn btn-primary'> Demo</a>
+   </div>
+    </article>
+
+
+
+    <article className='portfolio__item'>
+    <div className='portfolio__item-image'>
+    <img src={ace}/>
+    </div>
+    <h3>Ace Interview </h3>
+   <div className='portfolio__item-cta'>
+   <a href='https://github.com/vikashchand/Ace-Interview' className='btn' >Github</a>
+   <a href='https://ace-interview.vercel.app/' className='btn btn-primary'> Demo</a>
+   </div>
+    </article>
+
+
+
+
     
+
+
+
+
+
+
+
+
+
+        
     <article className='portfolio__item'>
     <div className='portfolio__item-image'>
    
@@ -61,6 +113,17 @@ const Portfolio = () => {
     </article>
 
 
+    <article className='portfolio__item'>
+    <div className='portfolio__item-image'>
+    <img src={job}/>
+    </div>
+    <h3>JOB SEARCH MOBILE APP</h3>
+   <div className='portfolio__item-cta'>
+   <a href='https://github.com/vikashchand/jobsearch' className='btn' >Github</a>
+   <a href='https://github.com/vikashchand/jobsearch/blob/main/application-bb77da36-7c6f-475e-86ed-fae9e122867a.apk' className='btn btn-primary'> install</a>
+   <a href='https://www.linkedin.com/posts/vikash-chand28_react-activity-7210997289266335745-6BVS?utm_source=share&utm_medium=member_desktop' className='btn btn-primary'> video</a>
+   </div>
+    </article>
 
 
     <article className='portfolio__item'>
@@ -74,30 +137,6 @@ const Portfolio = () => {
     <a href='https://github.com/vikashchand/SeniorGuardian' className='btn' >Github</a>
     </div>
     </article>
-
-
-
-
-
-
-
-
-
-
-    <article className='portfolio__item'>
-    <div className='portfolio__item-image'>
-    <img src="https://user-images.githubusercontent.com/72156896/253094550-94d6ad23-0a90-4e8a-bd4e-c90b731bd64d.png" alt='ml'/>
-    </div>
-    <h3>Chatgpt Prompts </h3>
-   <div className='portfolio__item-cta'>
-   <a href='https://github.com/vikashchand/posting-prompt' className='btn' >Github</a>
-   <a href='https://posting-prompt.vercel.app/' className='btn btn-primary'> Demo</a>
-   </div>
-    </article>
-
-
-
-
 
 
 
