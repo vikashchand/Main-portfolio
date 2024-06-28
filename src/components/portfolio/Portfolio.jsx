@@ -5,6 +5,7 @@ import vitpyq from '../../assets/vitpyq.png';
 import ace from '../../assets/ace.png';
 import job from '../../assets/jobsearch.png';
 import gym from '../../assets/gym.png';
+import police from '../../assets/police.png';
 const Portfolio = () => {
   return (
     <section id="portfolio" >
@@ -60,6 +61,20 @@ const Portfolio = () => {
     </article>
 
 
+
+
+    
+
+    <article className='portfolio__item'>
+    <div className='portfolio__item-image'>
+    <img src={police}/>
+    </div>
+    <h3>Police Portal </h3>
+   <div className='portfolio__item-cta'>
+   <a href='https://github.com/vikashchand/Police-portal' className='btn' >Github</a>
+   <a href='https://tnpolice.vercel.app/' className='btn btn-primary'> Demo</a>
+   </div>
+    </article>
 
     <article className='portfolio__item'>
     <div className='portfolio__item-image'>
@@ -126,6 +141,20 @@ const Portfolio = () => {
     </article>
 
 
+    
+    <article className='portfolio__item'>
+    <div className='portfolio__item-image'>
+    <img src="https://user-images.githubusercontent.com/72156896/254686248-d94574b1-6c3c-4f57-b553-8cf17c606319.png" alt='ml'/>
+    </div>
+    <h3>QuickWapp </h3>
+   <div className='portfolio__item-cta'>
+   <a href='https://github.com/vikashchand/QuickWhatsapp' className='btn' >Github</a>
+   <a href='https://quick-whatsapp.vercel.app/' className='btn btn-primary'> Demo</a>
+   </div>
+    </article>
+
+
+
     <article className='portfolio__item'>
     <div className='portfolio__item-image'>
     <img src="https://user-images.githubusercontent.com/72156896/273646740-0276e4f1-e3b5-4f10-bfb6-05fc56d090f3.png"alt='Teams'/>
@@ -145,17 +174,6 @@ const Portfolio = () => {
 
   
     
-    <article className='portfolio__item'>
-    <div className='portfolio__item-image'>
-    <img src="https://user-images.githubusercontent.com/72156896/254686248-d94574b1-6c3c-4f57-b553-8cf17c606319.png" alt='ml'/>
-    </div>
-    <h3>QuickWapp </h3>
-   <div className='portfolio__item-cta'>
-   <a href='https://github.com/vikashchand/QuickWhatsapp' className='btn' >Github</a>
-   <a href='https://quick-whatsapp.vercel.app/' className='btn btn-primary'> Demo</a>
-   </div>
-    </article>
-
 
 
 
