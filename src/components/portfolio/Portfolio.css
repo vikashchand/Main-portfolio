@@ -70,7 +70,7 @@ display: block;
 
     
 /*---------------------------------------media query for medium devices*/
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1300px) {
    
 .portfolio__container{
     display: grid;
