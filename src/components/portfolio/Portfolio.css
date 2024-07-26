@@ -70,11 +70,18 @@ display: block;
 
     
 /*---------------------------------------media query for medium devices*/
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1200px) {
    
 .portfolio__container{
-    grid-template-columns: 1fr 1fr;
-    gap:1.2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+
+
+padding-right: 20px;
+
+justify-items: center; /* This will center the items horizontally */
+align-items: center;
 }
     
 }

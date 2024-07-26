@@ -8,7 +8,7 @@ const Experiences = () => {
     <h2>What Skills I Have </h2>
 
     <div className=' experience__container'>
-    <div className='Web Developer'>
+    <div className='Web_Developer'>
     <h3>Web Development</h3>
     <div className='experience__content'>
 
@@ -93,7 +93,7 @@ const Experiences = () => {
     </div>
 
 
-    <div className='Web Developer'>
+    <div className='Web_Developer'>
     <h3>Other Technologies</h3>
     <div className='experience__content'>
 
@@ -112,14 +112,14 @@ const Experiences = () => {
 
     <article className='experience__details' >
     < GiRoundStar  className='experience__details-icon'/>
-   <div> <h4>Automation and Testing</h4>
+   <div> <h4>Automation</h4>
    <small className='light-text'>Basic</small></div>
     </article>
 
     <article className='experience__details' >
     < GiRoundStar  className='experience__details-icon'/>
-    <div><h4>Software Engineering</h4>
-    <small className='light-text'>Intemediate</small></div>
+    <div><h4>App</h4>
+    <small className='light-text'>Basic</small></div>
     </article>
 
   
@@ -127,7 +127,7 @@ const Experiences = () => {
 
     <article className='experience__details' >
     <GiRoundStar className='experience__details-icon'/>
-    <div><h4>Cloud Computing</h4>
+    <div><h4>Cloud</h4>
     <small className='light-text'>Basic</small></div>
     </article>
 
@@ -135,7 +135,7 @@ const Experiences = () => {
     <article className='experience__details' >
     <GiRoundStar className='experience__details-icon'/>
 
-    <div><h4>Machine learning</h4>
+    <div><h4>ML</h4>
     <small className='light-text'>Basic</small></div>
     </article>
 
@@ -146,9 +146,24 @@ const Experiences = () => {
    <small className='light-text'>Basic</small></div>
     </article>
     
+    <article className='experience__details' >
+    <GiRoundStar className='experience__details-icon'/>
+   <div> <h4>Agile</h4>
+   <small className='light-text'>Basic</small></div>
+    </article>
 
+    <article className='experience__details' >
+    <GiRoundStar className='experience__details-icon'/>
+   <div> <h4>SQR</h4>
+   <small className='light-text'>Basic</small></div>
+    </article>
 
-
+    
+    <article className='experience__details' >
+    <GiRoundStar className='experience__details-icon'/>
+   <div> <h4>OpenCV</h4>
+   <small className='light-text'>Basic</small></div>
+    </article>
     </div>
     
     </div>

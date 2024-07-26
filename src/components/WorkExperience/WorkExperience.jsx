@@ -14,7 +14,7 @@ const WorkExperience = () => {
           <div className="timeline-content">
             <h3>Cloud Engineer Intern</h3>
             <p></p>
-            <p>Upcoming cloud engineer intern at Signify Innovations.</p>
+            <p>Intern at Signify Innovations.</p>
             <p>
               
             </p>
